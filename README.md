@@ -4,6 +4,7 @@ First I load data using pandas then we split data into training and testing data
 Then I use TfidfVectorizer, The TfidfVectorizer converts a collection of raw documents into a matrix of TF-IDF features where Tf means Term Frequency
 and idf means Inverse Document Frequency.
 Then I use PassiveAggressiveClassifier algorithm to train our data and predict using this machine learning algorithm.
-Then I predict out test dataset and got 93.60 % accuracy.
+and we use pipeline for that.
+Then I predict out test dataset and got 95.18 % accuracy.
 
 News Dataset link::- https://drive.google.com/file/d/1er9NJTLUA3qnRuyhfzuN0XUsoIC4a-_q/view
